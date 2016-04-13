@@ -8,7 +8,7 @@ angular.module('app.controllers', [])
 
   $scope.bookACab = function()
   {
-    var number = 81899097;
+    var number = 88888888;
     var message =  "BOOK " +  $scope.info.postalcode + " #" +$scope.info.pickuppoint;
     console.info( $scope.info.postalcode);
     console.info($scope.info.pickuppoint);
