@@ -1,0 +1,15 @@
+<ion-view title="Book A Cab" id="page1">
+    <ion-content overflow-scroll="true" padding="true" class="has-header">
+        <form class="list">
+            <label class="item item-input"  >
+                <span class="input-label" >Postal Code</span>
+                <input type="number" placeholder="" ng-model="info.postalcode">
+            </label>
+            <label class="item item-input" >
+                <span class="input-label">Pickup Point</span>
+                <input type="text" placeholder="" ng-model="info.pickuppoint">
+            </label>
+        </form>
+        <button id="bookACab-button1" class="button button-positive  button-block icon-right ion-android-car" ng-click="bookACab()">Book it!</button>
+    </ion-content>
+</ion-view>
